@@ -2,13 +2,13 @@ import React from 'react';
 
 function Sitemap() {
   const routes = [
-    '/',
-    '/about',
-    '/experience',
-    '/education',
-    '/skills',
-    '/contact',
-    '/cv'
+    '/p/',
+    '/p/about',
+    '/p/experience',
+    '/p/education',
+    '/p/skills',
+    '/p/contact',
+    '/p/cv'
   ];
 
   const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>

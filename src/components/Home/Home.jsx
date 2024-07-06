@@ -23,7 +23,7 @@ function Home(){
                   </div>
                   <div className="intro-buttons nav-buttons">
                       <a className="download-button" href="" download="">Download CV</a>
-                      <Link className="contact-button" to="/contact">More info</Link>
+                      <Link className="contact-button" to="/p/contact">More info</Link>
                   </div>
               </div>
           </section>
@@ -31,7 +31,7 @@ function Home(){
 
       <footer>
           <div>
-              <img src="alfaris-image.jpg" alt="Image" />
+              <img src="./alfaris-image.jpg" alt="Image" />
               <div className="circle"></div>
           </div>
       </footer>
