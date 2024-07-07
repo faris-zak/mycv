@@ -1,0 +1,29 @@
+footer div img{
+    user-select: none;
+    max-width: 800px;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    transform: translate(0);
+    opacity: 1;
+    z-index: -1;
+    transition: all 2s ease;
+}
+
+footer div .circle{
+    user-select: none;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #c4c4c4;
+    opacity: 0.3;
+    position: fixed;
+    transform: translateY(0);
+    top: 60%;
+    right: 75%;
+    z-index: -1;
+    transition: all 2s ease;
+}
