@@ -1,15 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
-import Education from './components/Education/Education';
-import Skills from './components/Skills/Skills';
-import Contact from './components/Contact/Contact';
-import CV from './components/CV/CV';
-import NotFound from './components/NotFound/NotFound';
+import Home from './pages/Home';
+import About from './pages/About';
+import Experience from './pages/Experience';
+import Education from './pages/Education';
+import Skills from './pages/Skills';
+import Contact from './pages/Contact';
+import CV from './pages/CV';
+import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar/Navbar';
-import './App.css';
 
 function App() {
   return (

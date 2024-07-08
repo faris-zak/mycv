@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import './About.css';
 
 function About(){
 
