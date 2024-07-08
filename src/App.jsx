@@ -22,7 +22,6 @@ function App() {
           <Route path="/p/experience" element={<Experience />} />
           <Route path="/p/education" element={<Education />} />
           <Route path="/p/skills" element={<Skills />} />
-          <Route path="/p/contact" element={<Contact />} />
           <Route path="/p/cv" element={<CV />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
