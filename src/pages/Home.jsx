@@ -30,7 +30,7 @@ function Home(){
 
       <footer>
           <div>
-              <img src="./alfaris-image.jpg" alt="Image" />
+              <img src="./public/assets/images/microsoft-pilot.jpeg" alt="Image" />
               <div className="circle"></div>
           </div>
       </footer>

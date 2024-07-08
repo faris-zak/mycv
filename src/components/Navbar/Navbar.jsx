@@ -7,7 +7,7 @@ const Navbar = () => {
     
     <nav className="navbar">
       <div className="profile-icon">
-          <img id='userIcon' src="microsoft.jpg" alt="Image" />
+          <img id='userIcon' src="./public/assets/images/microsoft.jpg" alt="Image" />
       </div>
       <div className="pages">
       <ul>
