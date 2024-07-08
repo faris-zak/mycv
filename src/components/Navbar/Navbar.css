@@ -9,17 +9,6 @@ nav{
   padding-bottom: 30px;
 }
 
-.profile-icon{
-  display: inline-block;
-}
-
-.profile-icon img{
-  max-width: 80px;
-  border-radius: 200px;
-  display: inline-block;
-  text-decoration: none;
-}
-
 .pages{
   display: inline-block;
 }
@@ -42,8 +31,23 @@ nav{
   font-weight: 500;
 }
 
-.pages ul li a:hover{
-  color: #c4c4c4;
+
+.pages ul li a div.underline{
+  background-color: #e8eaea;
+  width: auto;
+  height: 3px;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.pages ul li a:hover div.underline{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.pages ul li a:active div.underline{
+  transform: translateY(-2px);
 }
 
 .nav-buttons{
@@ -51,34 +55,33 @@ nav{
 }
 
 .nav-buttons a{
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
   padding: 6px 16px;
   font-size: 17px;
   font-weight: 500;
   border: none;
   border-radius: 18px;
+  margin: 5px;
 }
 
-.nav-buttons a.download-button{
+.nav-buttons a.download{
   background-color: transparent;
   color: #e8eaea;
   border: 1.6px solid #e8eaea;
-  margin-right: 5px;
 }
 
-.nav-buttons a.download-button:hover{
+.nav-buttons a.download:hover{
   background-color: #e8eaea;
   color: black;
   border: 1.6px solid #e8eaea;
 }
 
-.nav-buttons a.contact-button{
+.nav-buttons a:last-child{
   background-color: #e8eaea;
   color: black;
-  margin-left: 5px;
 }
 
-.nav-buttons a.contact-button:hover{
+.nav-buttons a:last-child:hover{
   background-color: #e8eaeabd;
 }

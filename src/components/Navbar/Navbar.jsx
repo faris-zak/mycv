@@ -7,22 +7,21 @@ const Navbar = () => {
     
     <nav className="navbar">
       <div className="profile-icon">
-          <Link to="/p/about"><img src="alfaris-icon.jpg" alt="Image" /></Link>
+          <img id='userIcon' src="microsoft.jpg" alt="Image" />
       </div>
       <div className="pages">
       <ul>
-        <li><Link to="/p/">Home</Link></li>
-        <li><Link to="/p/about">About</Link></li>
-        <li><Link to="/p/experience">Experience</Link></li>
-        <li><Link to="/p/education">Education</Link></li>
-        <li><Link to="/p/skills">Skills</Link></li>
-        <li><Link to="/p/contact">Contact</Link></li>
-        <li><Link to="/p/cv">CV</Link></li>
+        <li><Link to="/p/" className="fade">Home<div className="underline"></div></Link></li>
+        <li><Link to="/p/about" className="fade">About<div className="underline"></div></Link></li>
+        <li><Link to="/p/experience" className="fade">Experience<div className="underline"></div></Link></li>
+        <li><Link to="/p/education" className="fade">Education<div className="underline"></div></Link></li>
+        <li><Link to="/p/skills" className="fade">Skills<div className="underline"></div></Link></li>
+        <li><Link to="/p/cv" className="fade">CV<div className="underline"></div></Link></li>
       </ul>
       </div>
       <div className="nav-buttons">
-        <a className="download-button" href="" download="">Download CV</a>
-        <Link className="contact-button" to="/p/contact">Contact Me</Link>
+        <a className="download" href="" download="">Download CV</a>
+        <Link className="fade" to="/p/contact">Contact Me</Link>
       </div>
     </nav>
   );

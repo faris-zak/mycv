@@ -13,7 +13,8 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <>
+        <Router>
       <div>
         <Navbar />
         <Routes>
@@ -22,11 +23,31 @@ function App() {
           <Route path="/p/experience" element={<Experience />} />
           <Route path="/p/education" element={<Education />} />
           <Route path="/p/skills" element={<Skills />} />
+          <Route path="/p/contact" element={<Contact />} />
           <Route path="/p/cv" element={<CV />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
+
+    <div class="smallScreen">
+            <img class="screens" src="small-screen-mockup.png" alt="Phones & Tablets" />
+            <div class="details">
+                <span class="h2">P phones and tablets soon</span>
+                <p class="detail">In the meantime, use a screen with a width 1024 pixels and above.</p>
+            </div>
+        </div>
+
+            <div id="socialMedia" class="sidebar">
+            <ul class="social-media-icons">
+                <li><a id="smIcons" href="#"><i class="fi fi-brands-twitter-alt-circle"></i></a></li>
+                <li><a id="smIcons" href="#"><i class="fi fi-brands-facebook"></i></a></li>
+                <li><a id="smIcons" href="#"><i class="fi fi-brands-linkedin"></i></a></li>
+                <li><a id="smIcons" href="#"><i class="fi fi-brands-instagram"></i></a></li>
+            </ul>
+        </div>
+    </>
+
   );
 }
 
