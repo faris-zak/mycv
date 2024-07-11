@@ -21,7 +21,7 @@ function Home(){
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat asperiores obcaecati laboriosam saepe dolorem ullam necessitatibus excepturi exercitationem repellat omnis est, consequuntur voluptas recusandae cupiditate id amet laborum, magni provident quisquam, sunt nostrum dignissimos atque. Neque enim officiis voluptatem tempore eum alias qui nam, ipsam magni quasi quae minus. Vel.</p>
                   </div>
                   <div className="intro-buttons nav-buttons">
-                      <a className="download-button" href="" download="">Download CV</a>
+                      <a className="download-button" href="Skills.jsx" download="Skills.jsx">Download CV</a>
                       <Link className="contact-button" to="/p/contact">More info</Link>
                   </div>
               </div>

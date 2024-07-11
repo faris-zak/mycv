@@ -29,20 +29,20 @@ function App() {
       </div>
     </Router>
 
-    <div class="smallScreen">
-            <img class="screens" src="small-screen-mockup.png" alt="Phones & Tablets" />
-            <div class="details">
-                <span class="h2">P phones and tablets soon</span>
-                <p class="detail">In the meantime, use a screen with a width 1024 pixels and above.</p>
+    <div className="smallScreen">
+            <img className="screens" src="./public/assets/images/small-screen-mockup.png" alt="Phones & Tablets" />
+            <div className="details">
+                <span className="h2">P phones and tablets soon</span>
+                <p className="detail">In the meantime, use a screen with a width 1024 pixels and above.</p>
             </div>
         </div>
 
-            <div id="socialMedia" class="sidebar">
-            <ul class="social-media-icons">
-                <li><a id="smIcons" href="#"><i class="fi fi-brands-twitter-alt-circle"></i></a></li>
-                <li><a id="smIcons" href="#"><i class="fi fi-brands-facebook"></i></a></li>
-                <li><a id="smIcons" href="#"><i class="fi fi-brands-linkedin"></i></a></li>
-                <li><a id="smIcons" href="#"><i class="fi fi-brands-instagram"></i></a></li>
+            <div id="socialMedia" className="sidebar">
+            <ul className="social-media-icons">
+                <li><a id="smIcons" href="#"><i className="fi fi-brands-twitter-alt-circle"></i></a></li>
+                <li><a id="smIcons" href="#"><i className="fi fi-brands-facebook"></i></a></li>
+                <li><a id="smIcons" href="#"><i className="fi fi-brands-linkedin"></i></a></li>
+                <li><a id="smIcons" href="#"><i className="fi fi-brands-instagram"></i></a></li>
             </ul>
         </div>
     </>
